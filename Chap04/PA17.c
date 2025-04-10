@@ -14,6 +14,7 @@ double Bit()
 {
 	unsigned int bit = 0;
 	unsigned int dnlcl = 0;
+	
 	dnlcl = 1 << 7;
 	bit = dnlcl;
 	printf("7번째 비트: %08X, %d\n", bit, bit);
@@ -28,6 +29,7 @@ double Bit()
 	printf("31번째 비트: %08X, %d\n", bit, bit);
 	return 0;
 }
+
 
 int main()
 {
