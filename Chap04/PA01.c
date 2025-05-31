@@ -23,7 +23,6 @@ double getMotionEnergy(double weight, double velocity)
 	return motionEnergy;
 }
 
-
 /*
 함수명: assignment0401
 기능(책임): 질량, 속력을 입력받음, 운동에너지를 계산하도록 함수호출, 그 결과를 콘솔에 출력함.
@@ -39,7 +38,7 @@ int assignment0401(void)
 	scanf("%lf", &weight);
 	printf("속력(m/s)? ");
 	scanf("%lf", &velocity);
-	
+
 	//2. 운동에너지 계산
 	double result = getMotionEnergy(weight, velocity);
 
@@ -54,5 +53,3 @@ int main(void)
 	assignment0401();
 	return 0;
 }
-
-
